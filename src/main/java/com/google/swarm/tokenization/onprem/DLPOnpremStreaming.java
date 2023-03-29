@@ -150,7 +150,10 @@ public class DLPOnpremStreaming {
                 }
             }
             c.output(KV.of(fileName, lineBuf.toString()));
+<<<<<<< HEAD
             LOG.info("KV.of("+fileName+" , "+lineBuf.toString()+")");
+=======
+>>>>>>> 56012d2 (WIP - Output to CSV files)
         }
     }
 
